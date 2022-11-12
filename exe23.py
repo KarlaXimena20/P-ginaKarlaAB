@@ -1,0 +1,7 @@
+phrase=input("Inserte la primera línea de una rima: ")
+lenght=len(phrase)
+print("Esta rima tiene", lenght, "letras")
+start=int(input("Ingresa un número de inicio: "))
+end=int(input("Ingresa un número final: "))
+part=(phrase[start:end])
+print(part)
